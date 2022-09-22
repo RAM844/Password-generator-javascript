@@ -71,23 +71,23 @@ function generatePassword(lower, upper, number, symbol, length) {
 
 
 
-//getRandomLower for getting lower letter 
+//getRandomLower returns random lower letter 
 function getRandomLower() {
     let lowerAlphabets = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','Q','r','s','t','u','v','w','x','y','z'];
     return lowerAlphabets[Math.floor(Math.random()*26)] 
 }
 
-//getRandomUpper for getting upper letter
+//getRandomUpper returns random upper letter
 function getRandomUpper() {
     let upperAlphabets = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
     return upperAlphabets[Math.floor(Math.random()*26)] 
 }
 
-//getRandomNumber for getting numbers
+//getRandomNumber returns random numbers
 function getRandomNumber() {
     return Math.floor(Math.random()*10)
 }
-//getRandomSymbol for getting random symbols
+//getRandomSymbol returns random symbols
 function getRandomSymbol() {
     let symbols = ['!','@','#','$','%','^','&','*','(',')','_','+','-','=',';',':','','<','>','?','/','{','}','[',']','|'];
     return symbols[Math.floor(Math.random()*26)] 
