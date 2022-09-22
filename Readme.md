@@ -18,8 +18,13 @@
 
 
 ## What I learned
-- 
-- 
+- Real world usage of objects, arrays, arrow function and slice function.
+- Learned how to copy text to clipboard using text area and 
+    ```javascript
+    document.execCommand('copy'); 
+    ```
+
+- Explored Math(built in object), functions like floor() random() ...
 
 ## Time taken
 - It took me around 3 hours to built this website from scratch.
